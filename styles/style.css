@@ -93,6 +93,7 @@ header , .hero-section{
     font-size: 20px;
     line-height: 20px;
     color: gray;
+    text-align: justify;
 }
 .about-container h3{
     color: red;
