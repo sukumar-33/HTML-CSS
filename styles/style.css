@@ -89,3 +89,18 @@ header , .hero-section{
 .about-section{
     margin-top: 60px;
 }
+.about-container .row p{
+    font-size: 20px;
+    line-height: 20px;
+    color: gray;
+}
+@media screen and (max-width : 768px) {
+    .about-container .row h2{
+        text-align: center;
+    }
+    .about-container h3{
+        text-align: center;
+    }
+    
+    
+}
