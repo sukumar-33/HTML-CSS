@@ -94,13 +94,12 @@ header , .hero-section{
     line-height: 20px;
     color: gray;
 }
+.about-container h3{
+    color: red;
+}
 @media screen and (max-width : 768px) {
-    .about-container .row h2{
+    .about-container .row h2 , .about-container h3{
         text-align: center;
-    }
-    .about-container h3{
-        text-align: center;
-    }
-    
+    }    
     
 }
