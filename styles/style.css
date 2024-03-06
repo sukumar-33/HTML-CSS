@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
 .navbar {
     height: 60px;
     padding-top: 40px;
@@ -21,7 +26,7 @@
     align-items: center;
 }
 
-header , .hero-section{
+header , .hero-section , .program-section{
     background-color: blue;
 }
 
@@ -103,4 +108,60 @@ header , .hero-section{
         text-align: center;
     }    
     
+}
+
+/* Video Section */
+.video-section .row{
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+   
+}
+.video-container{
+    margin-bottom: -160px;
+}
+
+/* Programs Section */
+.program-section .container .row{
+    text-align: center;
+}
+
+section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+
+
+@media screen and(min-width:992px){
+    .service-section-content{
+        text-align: left;
+    }
+}
+
+
+
+/* Service Section */
+.service-image-background{
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    background-color: #fceeed;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.service-section .container .row{
+    text-align: center;
+}
+.service-section .container .row h3{
+    color: red;
+}
+.service-section-image>img{
+    object-fit: cover;
 }
