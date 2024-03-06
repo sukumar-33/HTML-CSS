@@ -26,7 +26,7 @@
     align-items: center;
 }
 
-header , .hero-section , .program-section{
+header , .hero-section , .program-section , .mentorship-section{
     background-color: blue;
 }
 
@@ -123,7 +123,7 @@ header , .hero-section , .program-section{
 }
 
 /* Programs Section */
-.program-section .container .row{
+.program-section .container .row , .mentorship-section .container .row{
     text-align: center;
 }
 
@@ -131,18 +131,6 @@ section{
     padding-top: 50px;
     padding-bottom: 50px;
 }
-
-
-
-
-@media screen and(min-width:992px){
-    .service-section-content{
-        text-align: left;
-    }
-}
-
-
-
 /* Service Section */
 .service-image-background{
     height: 80px;
@@ -162,6 +150,62 @@ section{
 .service-section .container .row h3{
     color: red;
 }
-.service-section-image>img{
+/* .service-section-image>img{
     object-fit: cover;
+} */
+@media screen and (min-width:576px){
+    .service-section .container .row{
+        text-align: left;
+    }
+    .service-image-background{
+        margin-left: 0;
+    }
+}
+
+
+/* FAQ section */
+.faq-section .container h3{
+    color: red;
+}
+.faq-section-question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(251, 250, 250);
+}
+.faq-section-question h6{
+    margin-bottom: 0;
+}
+.faq-section-content{
+    border: 1px solid rgb(234, 229, 229);
+    padding: 18px;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 576px) {
+    .faq-section-question h6{
+        font-size: 18px;
+        
+    }
+}
+
+
+/* Footer */
+footer .container .row .footer-heading h2{
+    font-weight: 600;
+}
+footer .container .row .footer-heading{
+
+    margin-bottom: 20px;
+}
+footer .container .row .footer-content ul{
+    list-style-type: none;
+    padding: 0;
+}
+footer .container .row .footer-content ul li{
+    margin-bottom: 10px;
+}
+footer .container .row .footer-content ul li a{
+    color: black;
+    text-decoration: none;
 }
